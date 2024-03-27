@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+  background: linear-gradient(220deg, #da9bff, #ffffff, #ff0000);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  color: rgb(0, 0, 0);
+}
+
+.text-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2{
+    font-size: 75px;
+    font-weight: 500;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+}
+
+.happy-monkey-regular {
+  font-family: "Happy Monkey", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.text-container h1 {
+  margin: 0;
+  font-size: 150px;
+  color: rgba(225, 225, 225, 0.01);
+  background-image: url("https://cdn.create.vista.com/api/media/small/225107838/stock-vector-tropical-cocktails-colorful-seamless-pattern");
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  animation: animate 15s ease-in-out infinite;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+@keyframes animate {
+  0%,
+  100% {
+    background-position: left top;
+  }
+  25% {
+    background-position: right bottom;
+  }
+  50% {
+    background-position: left bottom;
+  }
+  75% {
+    background-position: right top;
+  }
+}
+
+.gradient-background {
+  
+}
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
